@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 func stringData(_ inputData: Data) -> String {
     let output = String(data: inputData, encoding: .utf8)
     return output!
